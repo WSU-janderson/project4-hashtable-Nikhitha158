@@ -4,7 +4,7 @@
 Project description can be found [in the repo](Project4_HashTable.pdf)
 Time Complexity Analysis
 1. insert(key, value)
-Time Complexity: O(1) average case, O(n) worst case
+   Time Complexity: O(1) average case, O(n) worst case
 
 Justification:
 
@@ -17,7 +17,7 @@ With good hash distribution and load factor management (resizing at α ≥ 0.5),
 Worst case occurs when all keys hash to same bucket or table needs resizing
 
 2. remove(key)
-Time Complexity: O(1) average case, O(n) worst case
+   Time Complexity: O(1) average case, O(n) worst case
 
 Justification:
 
@@ -28,7 +28,7 @@ Once found, removal is O(1) (just marking bucket as EAR)
 Performance depends on hash distribution and probing efficiency
 
 3. contains(key)
-Time Complexity: O(1) average case, O(n) worst case
+   Time Complexity: O(1) average case, O(n) worst case
 
 Justification:
 
@@ -39,7 +39,7 @@ Follows probing sequence until key found or ESS bucket encountered
 With proper load factor control, average search length remains constant
 
 4. get(key)
-Time Complexity: O(1) average case, O(n) worst case
+   Time Complexity: O(1) average case, O(n) worst case
 
 Justification:
 
@@ -50,7 +50,7 @@ Returns value instead of boolean, but same underlying search algorithm
 Hash lookup + probing determines complexity
 
 5. operator[](key)
-Time Complexity: O(1) average case, O(n) worst case
+   Time Complexity: O(1) average case, O(n) worst case
 
 Justification:
 
