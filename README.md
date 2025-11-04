@@ -21,7 +21,7 @@ Worst case: all elements collide to same probe sequence
 Time Complexity: O(1) average case, O(n) worst case
 Identical search process to contains()
 5. operator
-   Time Complexity: O(1) average case, O(n) worst case
+Time Complexity: O(1) average case, O(n) worst case
 First performs search (same as contains()/get())
 If key not found, performs insert which is also O(1) average
 Worst case involves both unsuccessful search and potential resize
