@@ -1,7 +1,4 @@
-
-
 #define RUN_TESTS
-
 #ifdef RUN_TESTS
 
 #include "HashTable.h"
@@ -14,7 +11,6 @@ using namespace std;
 
 #define HT_PRINT(ht) \
     cout << "HashTable contents" << endl; \
-    cout << "------------------" << endl; \
     cout << ht << endl;
 
 // Enable or disable specific tests here
