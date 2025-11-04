@@ -1,3 +1,10 @@
+/* Name : Nikhitha Palakurla
+Project-4 : Map ADT : Hash Table
+This project implements a Hash Table data structure in C++ that functions as a Map ADT (Dictionary)
+we will use open addressing with pseudo-random probing for collision resolution.
+The hash table stores key-value pairs where keys are strings and values are integers.
+ */
+
 #include "HashTable.h"
 #include <algorithm>  // For std::shuffle
 #include <random>     // For random number generation
